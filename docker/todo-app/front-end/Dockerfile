@@ -1,4 +1,4 @@
-FROM node:14-alpine as todofrontend
+FROM node:14-alpine AS todofrontend
 WORKDIR /
 COPY package*.json ./
 ADD node_modules.tar.gz ./
